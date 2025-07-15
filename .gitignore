@@ -1,0 +1,41 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 🧪 Entornos virtuales
+venv/
+env/
+ENV/
+
+# 🔒 Variables de entorno y secretos
+.env
+.env.*
+
+# 🛠 Archivos de configuración o log temporales
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# 📦 Dependencias
+*.egg-info/
+dist/
+build/
+
+# 💻 VSCode
+.vscode/
+*.code-workspace
+
+# 📄 Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# 🧪 Pytest y coverage
+htmlcov/
+.coverage
+.cache
+.tox/
+.pytest_cache/
